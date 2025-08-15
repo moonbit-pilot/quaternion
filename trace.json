@@ -1,0 +1,7 @@
+[
+{"pid":0, "name":"moonbit::check::read", "ts":14, "tid": 0, "ph":"X", "dur":150}
+,{"pid":0, "name":"moonc check -error-format json /app/_workspace/.mooncakes/Luna-Flow/luna-generic/src/operation.mbt /app/_workspace/.mooncakes/Luna-Flow/luna-generic/src/impl_dbl.mbt /app/_workspace/.mooncakes/Luna-Flow/luna-generic/src/impl_int.mbt /app/_workspace/.mooncakes/Luna-Flow/luna-generic/src/structure.mbt -w -a -alert -all -o /app/_workspace/target/wasm-gc/release/check/.mooncakes/Luna-Flow/luna-generic/luna-generic.mi -pkg Luna-Flow/luna-generic -std-path /root/.moon/lib/core/target/wasm-gc/release/bundle -pkg-sources Luna-Flow/luna-generic:/app/_workspace/.mooncakes/Luna-Flow/luna-generic/src -target wasm-gc", "ts":675, "tid": 1, "ph":"X", "dur":35741}
+,{"pid":0, "name":"moonc check -error-format json /app/_workspace/src/quaternion.mbt /app/_workspace/src/double_conv.mbt -o /app/_workspace/target/wasm-gc/release/check/quaternion.mi -pkg Luna-Flow/quaternion -std-path /root/.moon/lib/core/target/wasm-gc/release/bundle -i /app/_workspace/target/wasm-gc/release/check/.mooncakes/Luna-Flow/luna-generic/luna-generic.mi:lg -pkg-sources Luna-Flow/quaternion:/app/_workspace/src -target wasm-gc", "ts":36652, "tid": 1, "ph":"X", "dur":47934}
+,{"pid":0, "name":"work.run", "ts":269, "tid": 0, "ph":"X", "dur":84432}
+,{"pid":0, "name":"main", "ts":0, "tid": 0, "ph":"X", "dur":85047}
+]
